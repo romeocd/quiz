@@ -1,0 +1,59 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+#top {
+    color: purple
+}
+
+.top-position {
+    position: absolute;
+}
+
+#high-scores {
+    top: 0;
+    left: .5%;
+}
+
+#timer {
+    top: 0;
+    right: .5%;
+}
+
+#content {
+    margin: 5% auto;
+    text-align: center;
+    width: 35%;
+}
+
+button {
+    border-radius: 6px;
+    background-color: #6c197c;
+    color: white;
+    padding: 5px;
+    margin: 1% 1%;
+}
+
+.answers {
+    display: block;
+}
+
+h3 {
+    text-align: center;
+}
+
+#correct {
+    color: green;
+}
+
+#wrong {
+    color: red;
+}
+
+ol {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 auto 15px;
+    width: 30%;
+}
